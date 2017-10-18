@@ -1,0 +1,119 @@
+body{
+    margin: 0 auto;/*Le daremos estos valores a body asi limpiamos nuestro archivo y nada nos afectara nuestro código*/
+}
+
+.casa-caja{/*Esta es nuestra caja contenedora de nuetro trabajo*/
+    width: 800px;/*Los valores se modifican de acuerdo a nuestra pantalla*/
+    height: 600px;
+    margin: 0 auto;
+    position: relative;
+    z-index: -1;
+}
+
+#pasto{
+    background-color: #64FF33;
+    width: 800px;
+    height: 50px;
+    position: absolute;
+    bottom: 0;
+}
+
+/*Base de la casita----------------------*/
+#base {
+    width: 300px;
+    height: 120px;
+    background: brown;
+    position: absolute;
+    bottom: 50px;
+    right: 100px;
+}
+
+/*Ventana -----------------------------*/
+#ventana1 {
+    width: 60px;
+    height:60px;
+    background: pink;
+    position: absolute;
+    bottom: 80px;
+    right: 120px;
+}
+
+#ventana2 {
+    width: 60px;
+    height:60px;
+    background: pink;
+    position: absolute;
+    bottom: 80px;
+    right: 320px;
+}
+
+/*Puerta -----------------------------*/
+
+#puerta {
+    width: 95px;
+    height: 100px;
+    background: lightblue;
+    position: absolute;
+    bottom: 50px;
+    right: 200px;
+}
+
+/*Techo--------------------------------*/
+#techo {
+    width: 0;
+     height: 0;
+     border-right: 200px solid transparent;
+     border-top: 150px solid transparent;
+     border-left: 200px solid transparent;
+     border-bottom: 150px solid orange;
+     position: absolute;
+    bottom: 170px;
+    right: 50px;
+    
+}
+/*chimenea------------------------------*/
+#chimenea{
+    width: 45px;
+    height: 50px;
+    background: orange;
+    position: absolute;
+    bottom: 240px;
+    right: 140px;
+}
+
+/*humo------------------------------*/
+#humo1 {
+    width: 40px;
+    height: 40px;
+    background: #aaaaaa;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+    position: absolute;
+    top: 265px;
+    right: 120px;
+}
+
+#humo2 {
+    width: 30px;
+    height: 30px;
+    background: #bbbbbb;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+    position: absolute;
+    top: 255px;
+    right: 95px;
+}
+
+#humo3 {
+    width: 20px;
+    height: 20px;
+    background: #cccccc;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+    position: absolute;
+    top: 245px;
+    right: 80px;
+}
